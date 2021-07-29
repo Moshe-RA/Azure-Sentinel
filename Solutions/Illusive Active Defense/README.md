@@ -32,14 +32,19 @@ Use the playbook to quickly stop or slow down ransomware attacks and critical in
 
  ## Basic Requirements (set up in advance) 
    
-Trigger a Sentinel alert upon detecting an Illusive event and create a Sentinel incident. The Sentinel incident will correspond to the Illusive incident and will include all subsequent associated Illusive events.
+To use the Illusive Active Defense solution, you must have the following: 
+- An Azure AD subscription with a configured Sentinel workspace
+- An Illusive ADS (deceptions) license
 
 ## Workflow 
    
-1. Sentinel Workspace
-2. Azure Application Setup 
-3. Illusive API Key 
-4. SIEM server integration 
+1.	Locate the Sentinel Workspace 
+2.	Azure Application Setup
+3.	Generate an Illusive API Key
+4.	Configure and Deploy Playbooks
+5.	API connection setup
+6.	Configure the Illusive analytic rule
+7.	Add a SIEM Server
    
 ## Locate the Sentinel Workspace
    
