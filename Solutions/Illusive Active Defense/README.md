@@ -36,10 +36,13 @@ Trigger a Sentinel alert upon detecting an Illusive event and create a Sentinel 
 
 ## Workflow 
    
-1. Sentinel Workspace
-2. Azure Application Setup 
-3. Illusive API Key 
-4. SIEM server integration 
+1.	Locate the Sentinel Workspace 
+2.	Azure Application Setup
+3.	Generate an Illusive API Key
+4.	Configure and Deploy Playbooks
+5.	API connection setup
+6.	Configure the Illusive analytic rule
+7.	Add a SIEM Server
    
 ## Locate the Sentinel Workspace
    
